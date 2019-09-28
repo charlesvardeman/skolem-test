@@ -1,0 +1,181 @@
+@prefix ns1: <http://www.w3.org/ns/shacl#> .
+@prefix ns2: <http://schema.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL2C1> a ns1:ValidationReport ;
+    ns1:conforms false ;
+    ns1:result <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL110C8>,
+        <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL143C8>,
+        <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL42C8>,
+        <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL5C41>,
+        <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL79C8> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/fb11128c3def240f081be6808d5027106b1> rdf:first <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL33C46> ;
+    rdf:rest <http://ld.geoschemas.org/.well-known/genid/rdflib/fb11128c3def240f081be6808d5027106b2> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/fb11128c3def240f081be6808d5027106b2> rdf:first <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL36C17> ;
+    rdf:rest () .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/fb11128c3def240f081be6808d5027106b3> rdf:first <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL70C46> ;
+    rdf:rest <http://ld.geoschemas.org/.well-known/genid/rdflib/fb11128c3def240f081be6808d5027106b4> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/fb11128c3def240f081be6808d5027106b4> rdf:first <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL73C17> ;
+    rdf:rest () .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL104C50> ns1:maxCount 1 ;
+    ns1:minCount 1 ;
+    ns1:nodeKind ns1:Literal ;
+    ns1:path ns2:temporalCoverage .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL110C8> a ns1:ValidationResult ;
+    ns1:focusNode <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL112C48> ;
+    ns1:resultPath ns2:alternateName ;
+    ns1:resultSeverity ns1:Violation ;
+    ns1:sourceConstraintComponent ns1:MinCountConstraintComponent ;
+    ns1:sourceShape <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL135C50> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL112C48> a ns2:Dataset ;
+    ns2:additionalType "http://schema.geolink.org/1.0/base/main#Dataset",
+        "http://vivoweb.org/ontology/core#Dataset" ;
+    ns2:description """This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r
+\r
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r
+\r
+&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass.""" ;
+    ns2:identifier <https://doi.org/10.1575/1912/bco-dmo.665253> ;
+    ns2:keywords "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" ;
+    ns2:license "CC-BY-4.0" ;
+    ns2:name "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" ;
+    ns2:url "https://www.bco-dmo.org/dataset/foo" ;
+    ns2:variableMeasured <https://www.bco-dmo.org/dataset-parameter/665785>,
+        <https://www.bco-dmo.org/dataset-parameter/665787> ;
+    ns2:version "2013-11-21" .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL135C50> ns1:minCount 1 ;
+    ns1:nodeKind ns1:Literal ;
+    ns1:not <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL138C46> ;
+    ns1:path ns2:alternateName .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL138C46> ns1:nodeKind ns1:IRI .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL143C8> a ns1:ValidationResult ;
+    ns1:focusNode <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL145C48> ;
+    ns1:resultPath ns2:sameAs ;
+    ns1:resultSeverity ns1:Violation ;
+    ns1:sourceConstraintComponent ns1:MinCountConstraintComponent ;
+    ns1:sourceShape <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL168C50> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL145C48> a ns2:Dataset ;
+    ns2:additionalType "http://schema.geolink.org/1.0/base/main#Dataset",
+        "http://vivoweb.org/ontology/core#Dataset" ;
+    ns2:description """This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r
+\r
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r
+\r
+&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass.""" ;
+    ns2:identifier <https://doi.org/10.1575/1912/bco-dmo.665253> ;
+    ns2:keywords "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" ;
+    ns2:license "CC-BY-4.0" ;
+    ns2:name "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" ;
+    ns2:url "https://www.bco-dmo.org/dataset/foo" ;
+    ns2:variableMeasured <https://www.bco-dmo.org/dataset-parameter/665785>,
+        <https://www.bco-dmo.org/dataset-parameter/665787> ;
+    ns2:version "2013-11-21" .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL168C50> ns1:maxCount 1 ;
+    ns1:minCount 1 ;
+    ns1:nodeKind ns1:IRIOrLiteral ;
+    ns1:path ns2:sameAs .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL30C50> ns1:maxCount 1 ;
+    ns1:minCount 1 ;
+    ns1:or <http://ld.geoschemas.org/.well-known/genid/rdflib/fb11128c3def240f081be6808d5027106b1> ;
+    ns1:path ns2:citation .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL33C46> ns1:nodeKind ns1:Literal .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL36C17> ns1:class ns2:CreativeWork .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL42C8> a ns1:ValidationResult ;
+    ns1:focusNode <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL44C48> ;
+    ns1:resultPath ns2:spatialCoverage ;
+    ns1:resultSeverity ns1:Violation ;
+    ns1:sourceConstraintComponent ns1:MinCountConstraintComponent ;
+    ns1:sourceShape <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL67C50> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL44C48> a ns2:Dataset ;
+    ns2:additionalType "http://schema.geolink.org/1.0/base/main#Dataset",
+        "http://vivoweb.org/ontology/core#Dataset" ;
+    ns2:description """This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r
+\r
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r
+\r
+&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass.""" ;
+    ns2:identifier <https://doi.org/10.1575/1912/bco-dmo.665253> ;
+    ns2:keywords "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" ;
+    ns2:license "CC-BY-4.0" ;
+    ns2:name "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" ;
+    ns2:url "https://www.bco-dmo.org/dataset/foo" ;
+    ns2:variableMeasured <https://www.bco-dmo.org/dataset-parameter/665785>,
+        <https://www.bco-dmo.org/dataset-parameter/665787> ;
+    ns2:version "2013-11-21" .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL5C41> a ns1:ValidationResult ;
+    ns1:focusNode <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL7C48> ;
+    ns1:resultPath ns2:citation ;
+    ns1:resultSeverity ns1:Violation ;
+    ns1:sourceConstraintComponent ns1:MinCountConstraintComponent ;
+    ns1:sourceShape <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL30C50> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL67C50> ns1:maxCount 1 ;
+    ns1:minCount 1 ;
+    ns1:or <http://ld.geoschemas.org/.well-known/genid/rdflib/fb11128c3def240f081be6808d5027106b3> ;
+    ns1:path ns2:spatialCoverage .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL70C46> ns1:nodeKind ns1:Literal .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL73C17> ns1:class ns2:Place .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL79C8> a ns1:ValidationResult ;
+    ns1:focusNode <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL81C48> ;
+    ns1:resultPath ns2:temporalCoverage ;
+    ns1:resultSeverity ns1:Violation ;
+    ns1:sourceConstraintComponent ns1:MinCountConstraintComponent ;
+    ns1:sourceShape <http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL104C50> .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL7C48> a ns2:Dataset ;
+    ns2:additionalType "http://schema.geolink.org/1.0/base/main#Dataset",
+        "http://vivoweb.org/ontology/core#Dataset" ;
+    ns2:description """This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r
+\r
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r
+\r
+&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass.""" ;
+    ns2:identifier <https://doi.org/10.1575/1912/bco-dmo.665253> ;
+    ns2:keywords "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" ;
+    ns2:license "CC-BY-4.0" ;
+    ns2:name "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" ;
+    ns2:url "https://www.bco-dmo.org/dataset/foo" ;
+    ns2:variableMeasured <https://www.bco-dmo.org/dataset-parameter/665785>,
+        <https://www.bco-dmo.org/dataset-parameter/665787> ;
+    ns2:version "2013-11-21" .
+
+<http://ld.geoschemas.org/.well-known/genid/rdflib/ub1bL81C48> a ns2:Dataset ;
+    ns2:additionalType "http://schema.geolink.org/1.0/base/main#Dataset",
+        "http://vivoweb.org/ontology/core#Dataset" ;
+    ns2:description """This dataset includes results of laboratory experiments which measured dissolved organic carbon (DOC) usage by natural bacteria in seawater at different pCO2 levels. &amp;nbsp;Included in this dataset are; bacterial&amp;nbsp;abundance, total organic carbon (TOC), what DOC was added to the experiment, target pCO2 level. &amp;nbsp;The experiments were conducted between 2012 and 2016 during the R/V Kilo Moana cruise KM1416, at the Bermuda Institute for Ocean Sciences (BIOS), and the University of Santa Barbara.&lt;/p&gt;\r
+\r
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt;&lt;/p&gt;\r
+\r
+&lt;p&gt;Factors that affect the removal of organic carbon by heterotrophic bacterioplankton can impact the rate and magnitude of organic carbon loss in the ocean through the conversion of a portion of consumed organic carbon to CO2. Through enhanced rates of consumption, surface bacterioplankton communities can also reduce the amount of dissolved organic carbon (DOC) available for export from the surface ocean. The present study investigated the direct effects of elevated pCO2 on bacterioplankton removal of several forms of DOC ranging from glucose to complex phytoplankton exudate and lysate, and naturally occurring DOC. Elevated pCO2 (1000 &ndash; 1500 ppm) enhanced both the rate and magnitude of organic carbon removal by bacterioplankton communities compared to low (pre-industrial and ambient) pCO2 (250 &ndash; ~400 ppm). The increased removal was largely due to enhanced respiration, rather than enhanced production of bacterioplankton biomass.""" ;
+    ns2:identifier <https://doi.org/10.1575/1912/bco-dmo.665253> ;
+    ns2:keywords "ocean acidification, OA, Dissolved Organic Carbon, DOC, bacterioplankton respiration, pCO2, carbon dioxide, elevated pCO2, oceans" ;
+    ns2:license "CC-BY-4.0" ;
+    ns2:name "Removal of organic carbon by natural bacterioplankton communities as a function of pCO2 from laboratory experiments between 2012 and 2016" ;
+    ns2:url "https://www.bco-dmo.org/dataset/foo" ;
+    ns2:variableMeasured <https://www.bco-dmo.org/dataset-parameter/665785>,
+        <https://www.bco-dmo.org/dataset-parameter/665787> ;
+    ns2:version "2013-11-21" .
+
+
