@@ -7,5 +7,5 @@ if __name__ == '__main__':
     g.parse("./report.ttl", format="ttl")
 
     skolemver = g.skolemize(authority="http://ld.geoschemas.org")
-    print(skolemver.serialize(format="n3").decode('utf-8'))
+    print(skolemver.serialize(format="xml").decode('utf-8'))
 

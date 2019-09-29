@@ -1,11 +1,2 @@
-astroid==2.3.0
-isodate==0.6.0
-isort==4.3.21
-lazy-object-proxy==1.4.2
-mccabe==0.6.1
-pylint==2.4.1
-pyparsing==2.4.2
-rdflib==5.0.0.dev0
-six==1.12.0
-typed-ast==1.4.0
-wrapt==1.11.2
+-i https://pypi.org/simple
+git+https://github.com/RDFLib/rdflib.git@af625d0bc48b656b614629b9ad56df63b88a0d17#egg=rdflib
